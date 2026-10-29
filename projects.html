@@ -22,13 +22,20 @@
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="top">
- <div class="wrap bar">
-  <a class="brand" href="/"><span class="mono">ON</span> Omkar Najan</a>
-  <button class="menu" aria-label="Open menu" aria-expanded="false">Menu</button>
-  <nav aria-label="Main"><a href="index.html">Home</a><a href="experience.html">Experience</a><a href="projects.html" aria-current="page">Projects</a><a href="education.html">Education</a><a class="btn small" href="mailto:omkarnajan.cs@gmail.com">Email me</a></nav>
- </div>
-</header>
+<div class="mbar"><a class="brand" href="/"><span class="mono">ON</span> Omkar Najan</a><button class="menu" aria-label="Open menu" aria-expanded="false" aria-controls="side">Menu</button></div>
+<aside class="side" id="side">
+ <a class="brand big" href="/"><span class="mono">ON</span><span><b>Omkar Najan</b><small>Backend Software Engineer</small></span></a>
+ <nav class="vnav" aria-label="Main"><a href="index.html">Home</a><a href="experience.html">Experience</a><a href="projects.html" aria-current="page">Projects</a><a href="education.html">Education</a><a href="contact.html">Contact</a></nav>
+ <a class="btn full" href="/Omkar_Najan_Resume.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Download résumé</a>
+ <ul class="links">
+  <li><a href="mailto:omkarnajan.cs@gmail.com"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>Email</a></li>
+  <li><a href="https://www.linkedin.com/in/Omkar-Najan" target="_blank" rel="me noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 012-2h4a2 2 0 012 2v2"/></svg>LinkedIn</a></li>
+  <li><a href="https://github.com/omkarnajan" target="_blank" rel="me noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5"/></svg>GitHub</a></li>
+  
+ </ul>
+ <p class="status"><span class="dot"></span>Open to new roles</p>
+</aside>
+<div class="content">
 <main id="main">
 
 <section class="hero wrap slim">
@@ -58,10 +65,14 @@
  <div class="wrap">
   <h2>Hiring for a backend or cloud role?</h2>
   <p>I'm open to new opportunities and reply to every message. The fastest way to reach me is email.</p>
-  <div class="actions"><a class="btn" href="mailto:omkarnajan.cs@gmail.com?subject=Opportunity%20for%20Omkar">Email omkarnajan.cs@gmail.com</a><a class="btn ghost" href="https://www.linkedin.com/in/Omkar-Najan" rel="me noopener" target="_blank">LinkedIn</a></div>
+  <div class="actions"><a class="btn" href="mailto:omkarnajan.cs@gmail.com?subject=Opportunity%20for%20Omkar">Email omkarnajan.cs@gmail.com</a><a class="btn ghost" href="/Omkar_Najan_Resume.pdf" download>Download résumé</a></div>
  </div>
 </section>
-<footer class="foot"><div class="wrap"><span>&copy; 2026 Omkar Najan · Hyderabad, India</span><span><a href="https://github.com/omkarnajan" rel="me noopener" target="_blank">GitHub</a> · <a href="https://www.linkedin.com/in/Omkar-Najan" rel="me noopener" target="_blank">LinkedIn</a> · <a href="/llms.txt">llms.txt</a></span></div></footer>
-<script>document.querySelector('.menu').addEventListener('click',function(){var o=document.body.classList.toggle('nav-open');this.setAttribute('aria-expanded',o)});</script>
+<footer class="foot"><div class="wrap fgrid">
+ <div><p class="ftitle"><span class="dot"></span>Open for work and collaboration</p><p class="muted">Full-time backend, cloud and platform roles, plus interesting side projects.</p></div>
+ <ul class="flinks"><li><a href="mailto:omkarnajan.cs@gmail.com"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>omkarnajan.cs@gmail.com</a></li><li><a href="https://www.linkedin.com/in/Omkar-Najan" target="_blank" rel="me noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 012-2h4a2 2 0 012 2v2"/></svg>LinkedIn</a></li><li><a href="https://github.com/omkarnajan" target="_blank" rel="me noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5"/></svg>GitHub</a></li><li><a href="/Omkar_Najan_Resume.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Résumé (PDF)</a></li></ul>
+</div><div class="wrap fbase"><span>&copy; 2026 Omkar Najan · Hyderabad, India</span><a href="/llms.txt">llms.txt</a></div></footer>
+</div>
+<script>document.querySelector('.menu').addEventListener('click',function(){var o=document.body.classList.toggle('nav-open');this.setAttribute('aria-expanded',o);this.textContent=o?'Close':'Menu'});</script>
 </body>
 </html>

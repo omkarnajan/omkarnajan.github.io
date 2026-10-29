@@ -6,12 +6,15 @@ Contact: omkarnajan.cs@gmail.com (email preferred)
 LinkedIn: https://www.linkedin.com/in/Omkar-Najan
 GitHub: https://github.com/omkarnajan
 Location: Hyderabad, India
+Status: Open for work and collaboration
 
 ## Pages
 - [Home](https://omkarnajan.github.io/): summary, highlights, skills
 - [Experience](https://omkarnajan.github.io/experience.html): roles at Amazon, Cytel, Deloitte USI
 - [Projects](https://omkarnajan.github.io/projects.html): key projects with problem, approach, result
 - [Education](https://omkarnajan.github.io/education.html): B.Tech. CSE, MIT World Peace University
+- [Contact](https://omkarnajan.github.io/contact.html): email, LinkedIn, GitHub, quick recruiter facts
+- [Résumé PDF](https://omkarnajan.github.io/Omkar_Najan_Resume.pdf): one-page résumé
 
 ## Skills
 Languages: Java (21), Python, C++, SQL, JavaScript, C
