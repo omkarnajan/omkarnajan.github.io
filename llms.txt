@@ -5,6 +5,7 @@
 Contact: omkarnajan.cs@gmail.com (email preferred)
 LinkedIn: https://www.linkedin.com/in/Omkar-Najan
 GitHub: https://github.com/omkarnajan
+LeetCode: https://leetcode.com/u/COderOmi/
 Location: Hyderabad, India
 Status: Open for work and collaboration
 
@@ -25,7 +26,7 @@ Practices: unit/integration testing, CI/CD, Docker, resiliency (DLQs, retries, i
 AI: LLM integrations, agentic workflows, prompt engineering, MCP
 
 ## Experience
-### Software Engineer, Amazon, Hyderabad (Jul 2025 – Jul 2026, 12-month contract)
+### Software Engineer, Amazon, Hyderabad (Jul 2025 – Jul 2026)
 - Owned migration of an order-event service (1.2K+ events/min) from EC2 (Java 8/Spring) to AWS Lambda (Java 21, SnapStart); authored HLD/LLD; 95% unit-test coverage.
 - Built ordered, fault-tolerant pipeline on SQS FIFO, SNS and DynamoDB (message groups, DLQs, dedup, retries, partial-batch failure handling, audit log).
 - Zero-downtime cross-region cutover with gradual traffic shifting (1% to 100%) and sub-10-minute rollback.
