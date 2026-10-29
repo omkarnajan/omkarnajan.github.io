@@ -13,7 +13,7 @@ Status: Open for work and collaboration
 - [Home](https://omkarnajan.github.io/): summary, highlights, skills
 - [Experience](https://omkarnajan.github.io/experience.html): roles at Amazon, Cytel, Deloitte USI
 - [Projects](https://omkarnajan.github.io/projects.html): key projects with problem, approach, result
-- [Education](https://omkarnajan.github.io/education.html): B.Tech. CSE, MIT World Peace University
+- [Education](https://omkarnajan.github.io/education.html): B.Tech. CSE, MIT World Peace University; certifications
 - [Contact](https://omkarnajan.github.io/contact.html): email, LinkedIn, GitHub, quick recruiter facts
 - [Résumé PDF](https://omkarnajan.github.io/Omkar_Najan_Resume.pdf): one-page résumé
 
@@ -45,3 +45,9 @@ AI: LLM integrations, agentic workflows, prompt engineering, MCP
 
 ## Education
 - B.Tech., Computer Science and Engineering, MIT World Peace University (2018 – 2022). CGPA 9.3/10. 500+ DSA problems solved.
+
+## Certifications
+- IBM Data Science Specialization, IBM (Coursera), Jan 2021. Credential: https://www.coursera.org/account/accomplishments/specialization/GJVZJHDQ8PAT
+- Full-Stack Web Development with React Specialization, The Hong Kong University of Science and Technology (Coursera), Oct 2020. Credential: https://www.coursera.org/account/accomplishments/specialization/998L5YHBWCNZ
+- Algorithms on Graphs, University of California San Diego (Coursera), Oct 2021. Credential: https://www.coursera.org/account/accomplishments/verify/L69SK2D3GVTM
+- Algorithmic Toolbox, University of California San Diego (Coursera), Sep 2021. Credential: https://www.coursera.org/account/accomplishments/verify/2BME2VT8LL5U

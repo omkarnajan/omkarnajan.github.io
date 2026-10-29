@@ -106,3 +106,5 @@ h2{font-size:clamp(24px,3vw,30px)}h3{font-size:20px}
  .content{margin-left:0}.facts{grid-template-columns:1fr}
 }
 @media (max-width:600px){.who{align-items:flex-start}.logo{width:40px;height:40px}.logo img{inset:5px;width:28px;height:28px}}
+.sec{margin:36px 0 4px}.cert h3{font-size:18px;margin-bottom:2px}.cert .org{font-size:14px}
+.cmeta{margin:14px 0 6px!important;font-size:13px}.clinkt{font-weight:600;font-size:14px;text-decoration:none}
