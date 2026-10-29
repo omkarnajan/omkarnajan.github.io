@@ -1,0 +1,43 @@
+# Omkar Najan
+
+> Backend software engineer (~3 years) in Hyderabad, India, building secure, reliable Java and Spring Boot services on AWS. Formerly Software Engineer at Amazon (Jul 2025 – Jul 2026) and Cytel Inc. (Aug 2023 – Jun 2025). Open to backend, cloud and platform engineering roles.
+
+Contact: omkarnajan.cs@gmail.com (email preferred)
+LinkedIn: https://www.linkedin.com/in/Omkar-Najan
+GitHub: https://github.com/omkarnajan
+Location: Hyderabad, India
+
+## Pages
+- [Home](https://omkarnajan.github.io/): summary, highlights, skills
+- [Experience](https://omkarnajan.github.io/experience.html): roles at Amazon, Cytel, Deloitte USI
+- [Projects](https://omkarnajan.github.io/projects.html): key projects with problem, approach, result
+- [Education](https://omkarnajan.github.io/education.html): B.Tech. CSE, MIT World Peace University
+
+## Skills
+Languages: Java (21), Python, C++, SQL, JavaScript, C
+Frameworks: Spring Boot, Spring, REST APIs, event-driven architecture, microservices
+AWS: Lambda, ECS, SQS (FIFO), SNS, DynamoDB, API Gateway, S3, CloudWatch, KMS, IAM, CDK
+Databases: DynamoDB, MySQL, Redis
+Practices: unit/integration testing, CI/CD, Docker, resiliency (DLQs, retries, idempotency), least-privilege security, observability, Agile
+AI: LLM integrations, agentic workflows, prompt engineering, MCP
+
+## Experience
+### Software Engineer, Amazon, Hyderabad (Jul 2025 – Jul 2026, 12-month contract)
+- Owned migration of an order-event service (1.2K+ events/min) from EC2 (Java 8/Spring) to AWS Lambda (Java 21, SnapStart); authored HLD/LLD; 95% unit-test coverage.
+- Built ordered, fault-tolerant pipeline on SQS FIFO, SNS and DynamoDB (message groups, DLQs, dedup, retries, partial-batch failure handling, audit log).
+- Zero-downtime cross-region cutover with gradual traffic shifting (1% to 100%) and sub-10-minute rollback.
+- Built multi-channel User Communication Service (Spring Boot on ECS): Email, SMS, WhatsApp, PDF e-tickets across 5 travel domains; 14+ templates; KMS-encrypted PII; idempotent sends.
+- Built reusable SNS CDK constructs; led shared CDK library upgrades used by 2 teams.
+- Built AI on-call incident-triage agent (LLM) for read-only investigation across logs, metrics, alarms, tickets with defense-in-depth safety.
+- On-call rotation; resolved multiple Sev2 incidents; code reviews.
+
+### Software Engineer, Cytel Inc., Pune (Aug 2023 – Jun 2025)
+- Migrated legacy XML layer to JSON interface between a C++ simulation engine and Java/Spring Boot backend, enabling desktop-to-web move.
+- Built Java REST APIs orchestrating 15+ clinical simulations.
+- Automated CI/CD (Bitbucket, Python, Docker), reducing testing time by 60%. Mentored one intern.
+
+### DC Analyst, Deloitte USI, Hyderabad (Jan 2023 – Aug 2023)
+- SQL workflows to process and validate payroll data for 50,000+ employees.
+
+## Education
+- B.Tech., Computer Science and Engineering, MIT World Peace University (2018 – 2022). CGPA 9.3/10. 500+ DSA problems solved.

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Experience · Omkar Najan</title>
+<meta name="description" content="Work experience of Omkar Najan: Software Engineer at Amazon (AWS Lambda migration, notification service, AI on-call agent), Cytel and Deloitte.">
+<meta name="author" content="Omkar Najan">
+<link rel="canonical" href="https://omkarnajan.github.io/experience.html">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Experience · Omkar Najan">
+<meta property="og:description" content="Work experience of Omkar Najan: Software Engineer at Amazon (AWS Lambda migration, notification service, AI on-call agent), Cytel and Deloitte.">
+<meta property="og:url" content="https://omkarnajan.github.io/experience.html">
+<meta name="twitter:card" content="summary">
+<meta name="robots" content="index, follow, max-snippet:-1">
+<link rel="alternate" type="text/plain" href="/llms.txt" title="LLM-readable profile">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Omkar Najan", "url": "https://omkarnajan.github.io/", "email": "mailto:omkarnajan.cs@gmail.com", "jobTitle": "Backend Software Engineer", "description": "Backend software engineer (~3 years) building secure, reliable Java and Spring Boot services on AWS. Formerly at Amazon and Cytel.", "address": {"@type": "PostalAddress", "addressLocality": "Hyderabad", "addressCountry": "IN"}, "alumniOf": {"@type": "CollegeOrUniversity", "name": "MIT World Peace University"}, "knowsAbout": ["Java", "Spring Boot", "AWS Lambda", "AWS", "Microservices", "Event-driven architecture", "DynamoDB", "SQS", "SNS", "System design", "CI/CD", "AI agents", "LLM integrations"], "sameAs": ["https://www.linkedin.com/in/Omkar-Najan", "https://github.com/omkarnajan"]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+ <div class="wrap bar">
+  <a class="brand" href="/"><span class="mono">ON</span> Omkar Najan</a>
+  <button class="menu" aria-label="Open menu" aria-expanded="false">Menu</button>
+  <nav aria-label="Main"><a href="index.html">Home</a><a href="experience.html" aria-current="page">Experience</a><a href="projects.html">Projects</a><a href="education.html">Education</a><a class="btn small" href="mailto:omkarnajan.cs@gmail.com">Email me</a></nav>
+ </div>
+</header>
+<main id="main">
+
+<section class="hero wrap slim">
+ <p class="eyebrow">Experience</p>
+ <h1>About 3 years building backend systems.</h1>
+ <p class="lead">Each role starts with a short plain-English summary, followed by the details for technical readers.</p>
+</section>
+
+<section class="wrap roles">
+ <article class="role">
+  <header><div><h2>Software Engineer</h2><p class="org">Amazon · Hyderabad, India</p></div><p class="when">Jul 2025 – Jul 2026<br><span class="muted">12-month contract</span></p></header>
+  <p class="plain"><b>In short:</b> I rebuilt a high-traffic order service on modern AWS with zero downtime, built the system that sends travel customers their emails, texts, WhatsApp messages and e-tickets, and created an AI assistant that helps on-call engineers investigate problems faster.</p>
+  <ul>
+   <li>Owned the design and delivery of moving an order-event service (1,200+ events per minute) from EC2 (Java 8/Spring) to AWS Lambda (Java 21, SnapStart). Wrote the high- and low-level designs and shipped with 95% unit-test coverage.</li>
+   <li>Built an ordered, fault-tolerant pipeline on SQS FIFO, SNS and DynamoDB with per-order ordering, dead-letter queues, de-duplication, retries and an audit log.</li>
+   <li>Ran a zero-downtime cross-region cutover, shifting traffic gradually from 1% to 100% with a rollback path under 10 minutes.</li>
+   <li>Designed and built a multi-channel User Communication Service (Spring Boot on ECS) for Email, SMS, WhatsApp and PDF e-tickets across 5 travel businesses, with 14+ templates and encrypted customer data.</li>
+   <li>Built reusable infrastructure building blocks (AWS CDK) and led shared library upgrades used by 2 teams.</li>
+   <li>Built an AI on-call incident-triage agent that safely investigates logs, metrics, alarms and tickets in read-only mode.</li>
+   <li>Took part in the on-call rotation, resolving several high-priority incidents, and reviewed teammates' code.</li>
+  </ul>
+  <ul class="tags sm"><li>Java 21</li><li>Spring Boot</li><li>AWS Lambda</li><li>ECS</li><li>SQS</li><li>SNS</li><li>DynamoDB</li><li>CDK</li><li>KMS</li><li>LLM agents</li></ul>
+ </article>
+
+ <article class="role">
+  <header><div><h2>Software Engineer</h2><p class="org">Cytel Inc. · Pune, India</p></div><p class="when">Aug 2023 – Jun 2025</p></header>
+  <p class="plain"><b>In short:</b> I helped turn clinical-trial simulation software from a desktop app into a web application, and automated testing and deployment so the team could ship faster.</p>
+  <ul>
+   <li>Replaced a legacy XML communication layer with a JSON interface connecting a C++ simulation engine to a Java/Spring Boot backend, enabling the move to the web.</li>
+   <li>Built Java REST APIs that run 15+ clinical simulations on the C++ core.</li>
+   <li>Automated CI/CD with Bitbucket and Python, deploying Docker containers and cutting testing time by 60%.</li>
+   <li>Reviewed code and mentored an intern.</li>
+  </ul>
+  <ul class="tags sm"><li>Java</li><li>Spring Boot</li><li>C++</li><li>Docker</li><li>CI/CD</li><li>Python</li></ul>
+ </article>
+
+ <article class="role">
+  <header><div><h2>DC Analyst</h2><p class="org">Deloitte USI · Hyderabad, India</p></div><p class="when">Jan 2023 – Aug 2023</p></header>
+  <p class="plain"><b>In short:</b> I made sure payroll data for a large workforce was accurate and compliant.</p>
+  <ul><li>Designed and ran SQL workflows to process and validate payroll data for 50,000+ employees.</li></ul>
+  <ul class="tags sm"><li>SQL</li><li>ETL</li></ul>
+ </article>
+</section>
+
+</main>
+<section class="cta">
+ <div class="wrap">
+  <h2>Hiring for a backend or cloud role?</h2>
+  <p>I'm open to new opportunities and reply to every message. The fastest way to reach me is email.</p>
+  <div class="actions"><a class="btn" href="mailto:omkarnajan.cs@gmail.com?subject=Opportunity%20for%20Omkar">Email omkarnajan.cs@gmail.com</a><a class="btn ghost" href="https://www.linkedin.com/in/Omkar-Najan" rel="me noopener" target="_blank">LinkedIn</a></div>
+ </div>
+</section>
+<footer class="foot"><div class="wrap"><span>&copy; 2026 Omkar Najan · Hyderabad, India</span><span><a href="https://github.com/omkarnajan" rel="me noopener" target="_blank">GitHub</a> · <a href="https://www.linkedin.com/in/Omkar-Najan" rel="me noopener" target="_blank">LinkedIn</a> · <a href="/llms.txt">llms.txt</a></span></div></footer>
+<script>document.querySelector('.menu').addEventListener('click',function(){var o=document.body.classList.toggle('nav-open');this.setAttribute('aria-expanded',o)});</script>
+</body>
+</html>
